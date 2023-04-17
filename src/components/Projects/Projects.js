@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import wham from "../../Assets/Projects/wham.png";
+import snabb from "../../Assets/Projects/snabb.png";
 
 function Projects() {
   return (
@@ -97,6 +99,42 @@ function Projects() {
               // Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/mayank-9031/personal-Portfolio-react"
               demoLink="https://personal-portfolio-react-six.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wham}
+              isBlog={false}
+              title="Wham"
+              description="Developed a responsive website Wham for our company, a cloud kitchen specializing in burgers, in
+              collaboration with a team of developers.
+              I created this Responsive website using HTML, CSS and JavaScript."
+              ghLink="https://github.com/R-R-Consulting-SDE/Wham-RR"
+              demoLink="https://wham.net.in/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={snabb}
+              isBlog={false}
+              title="Snabb"
+              description="It is the Parent company of Wham(a Burger restaurent) and Capo(a Pizza restaurent).
+              I created this Responsive website using HTML, CSS and JavaScript."
+              ghLink="https://github.com/R-R-Consulting-SDE/Snabb"
+              demoLink="https://snabb.life/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Client Dashboard"
+              description="My personal website contains all my informations, skills and project works.
+              I created this Responsive website using HTML, CSS and JavaScript."
+              ghLink="https://github.com/R-R-Consulting-SDE/RR-DashBoard"
+              demoLink="https://github.com/R-R-Consulting-SDE/RR-DashBoard"
             />
           </Col>
         </Row>
