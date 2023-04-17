@@ -10,7 +10,7 @@ function Github() {
       </h1>
       <GitHubCalendar
         username="mayank-9031"
-        blockSize={15}
+        blockSize={18}
         blockMargin={5}
         color="#c084f5"
         fontSize={16}
