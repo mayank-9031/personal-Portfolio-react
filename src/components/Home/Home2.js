@@ -27,18 +27,16 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  C++, Data Structure and Algirithms and Java.{" "}
+                  C++, Java and Data Structure and Algirithms.{" "}
                 </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple">Websites and Products </b> and also in
+                areas related to{" "}
+                <b className="purple">Solve the Real life problems.</b>
               </i>
               <br />
               <br />
